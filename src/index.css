@@ -6,7 +6,7 @@
   --orange-dim:  #C8881A;
   --orange-glow: rgba(240, 169, 45, 0.18);
   --red:         #FF3131;
-  --bg:          #0C0C0C;
+  --bg:          #282828;
   --bg-card:     #141414;
   --bg-hover:    #1C1C1C;
   --border:      rgba(255,255,255,0.08);
@@ -196,7 +196,7 @@ h1, h2, h3 { font-family: var(--font-display); line-height: 1.1; }
   background: var(--bg-card);
   border: 1px solid var(--border);
 }
-.hero-mosaic-cell:nth-child(1) { grid-row: span 2; }
+.hero-mosaic-cell:nth-child(1) { grid-row: span 5; }
 .hero-mosaic-overlay {
   position: absolute;
   inset: 0;

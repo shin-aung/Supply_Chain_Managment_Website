@@ -64,7 +64,7 @@ function Hero() {
     ...mediaManifest.uniqloImages.slice(0, 2).map((f) => `images/UNIQLO/${f}`),
     ...mediaManifest.ikeaImages.slice(0, 2).map((f) => `images/IKEA/${f}`),
     ...mediaManifest.zaraImages.slice(0, 1).map((f) => `images/ZARA/${f}`),
-    ...mediaManifest.memberImages.slice(0, 1).map((f) => `images/members/${f}`),
+    ...mediaManifest.memberImages.slice(0, 5).map((f) => `images/members/${f}`),
   ];
 
   const placeholderEmojis = ["🏪", "🛋️", "👕", "📦", "🛒", "📷"];
@@ -98,7 +98,7 @@ function Hero() {
 
       <div className="hero-right">
         <div className="hero-mosaic">
-          {Array.from({ length: 6 }, (_, i) => (
+          {Array.from({ length: 10 }, (_, i) => (
             <div key={i} className="hero-mosaic-cell">
               {allImages[i] ? (
                 <img src={`/${allImages[i]}`} alt="" />
