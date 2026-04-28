@@ -45,6 +45,11 @@ export const mediaManifest = {
 
   // ── MEMBERS ──────────────────────────────────────────────
   memberImages: [
+    'Bhuvana_Senthil.png',
+    'Rani.png',
+    'Shin_Thant_Aung.png',
+    'Shweta.png',
+    'Su_Sandy_Myint.png',
     // Add your member/group photo filenames here
     // e.g. 'group-photo.jpg', 'member1.jpg'
   ] as string[],
