@@ -89,12 +89,24 @@ export const mediaManifest = {
   ] as string[],
 
   ikeaVideos: [
+    "IMG_2471.MOV",
+    "IMG_2478.MOV",
+    "Vedio1.mp4",
+    "Vedio2.mp4",
+    "Vedio3.mp4",
+    "Vedio4.mp4",
     // Add your IKEA video filenames here
     // e.g. 'showroom-walk.mp4', 'warehouse.mp4'
   ] as string[],
 
   // ── ZARA ─────────────────────────────────────────────────
   zaraImages: [
+    'Zara_Bags.jpeg',
+    'Zara_Entrance.jpeg',
+    'Zara_Items.jpeg',
+    'Zara_Perfume.jpeg',
+    'Zara_Shopping.jpeg',
+    'Zara_Side.jpeg',
     // Add your ZARA image filenames here
   ] as string[],
 
@@ -104,11 +116,11 @@ export const mediaManifest = {
 
   // ── MEMBERS ──────────────────────────────────────────────
   memberImages: [
-    "Bhuvana_Senthil.png",
-    "Rani.png",
     "Shin_Thant_Aung.png",
     "Shweta.png",
     "Su_Sandy_Myint.png",
+    "Bhuvana_Senthil.png",
+    "Rani.png",
     // Add your member/group photo filenames here
     // e.g. 'group-photo.jpg', 'member1.jpg'
   ] as string[],
