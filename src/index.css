@@ -302,7 +302,7 @@ h1, h2, h3 { font-family: var(--font-display); line-height: 1.1; }
 }
 .badge-uniqlo { background: #E40012; color: #fff; }
 .badge-ikea   { background: #0058A3; color: #fff; }
-.badge-zara   { background: #1A1A1A; color: #F0EDE6; border: 1px solid #444; }
+.badge-zara   { background: #f8fbc3; color: #000000; border: 1px solid #444; }
 
 .company-tagline {
   font-size: 0.85rem;
